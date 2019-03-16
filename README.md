@@ -1,3 +1,15 @@
+## Pagination Component
+
+Usage: 
+
+<Pagination posts={this.state.posts} perPage={10}>
+    <Post />
+</Pagination>
+
+posts = Lists of posts.
+perPage = Number of posts to be displayed in one page.
+children = Component which should be display.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
